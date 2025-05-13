@@ -60,7 +60,7 @@ body {
     display: block;
 }
 
-@media and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .botoes {
         display: flex;
     }
@@ -69,9 +69,7 @@ body {
         border: 40px 0 0 0;
     }
 
-    .botao;
-
-    :last-child {
+    .botao:last-child {
         border-radius: 0 40px 0 0;
     }
 }
